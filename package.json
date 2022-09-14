@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "nodemon rqf1.js | pino-colada",
+    "start": "node rqf1.js"
+  },
+  "dependencies": {
+    "fastify": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "pino-colada": "^2.2.2",
+    "pino-pretty": "^9.1.0"
+  }
+}
